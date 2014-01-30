@@ -42,8 +42,10 @@ public class Authenticator {
 				return false;
 			}
 		}
+		/* Morten jan 2014 - remove certificate check since going open-source
 		if (authenticated)
 			authenticated = checkCertificate(req, sessionData);
+		*/
 
 		return authenticated;
 	}
