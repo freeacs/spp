@@ -1,3 +1,5 @@
+v1.4.16 (2014-12-19)
+- lib: dbi v1.74.37 - a severe bug was fixed (matching of groups in a job)
 v1.4.15 (2013-06-06)
 - bug: telnet did not use job-file-version
 - bug: telnet client did not abort if no response from telnet server (device) - could happen if disconnected
