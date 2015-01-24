@@ -21,7 +21,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>FileServlet</servlet-name>
-		<servlet-class>com.owera.xaps.base.http.FileServlet</servlet-class>
+		<servlet-class>com.owera.xaps.spp.FileServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>FileServlet</servlet-name>

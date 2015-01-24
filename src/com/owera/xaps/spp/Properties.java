@@ -89,5 +89,9 @@ public class Properties {
 	public static String getAuthMethod() {
 		return getString("auth.method", "none");
 	}
+	
+	 public static boolean isFileAuthUsed() {
+	    return getString("file.auth.used", "false").equals("true");
+	  }
 
 }

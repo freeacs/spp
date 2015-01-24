@@ -37,7 +37,7 @@ import com.owera.xaps.spp.telnet.TelnetProvisioning;
 public class HTTPProvisioning extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
-	public static final String VERSION = "1.4.16";
+	public static final String VERSION = "1.5.0";
 
 	static {
 		DBAccess.init(Module.SPP, SyslogConstants.FACILITY_SPP, VERSION);

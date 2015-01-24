@@ -1,3 +1,7 @@
+v1.5.0 (2015-01-25)
+- sec: added authentication to File download. This is not tested a will most likely not work right away. Anyway - working with SPP will require some 
+effort to get it up and running, since this module has had so low priority for many years.
+- lib: prov v1.4.28 - moved FileServlet into SPP/TR069-project 
 v1.4.16 (2014-12-19)
 - lib: dbi v1.74.37 - a severe bug was fixed (matching of groups in a job)
 v1.4.15 (2013-06-06)
